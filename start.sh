@@ -4,7 +4,7 @@ then
   git clone https://github.com/dor3Monbotz/Auto-Filter-V5
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /Auto-Filter-V5
+  git clone dor3Monbotz/Auto-Filter-V5
 fi
 cd /Auto-Filter-V5
 pip3 install -U -r requirements.txt
